@@ -15,7 +15,7 @@ from gui.scaleform.daapi.view.battle.meta import DamagePanelMeta
 import SoundGroups
 import FMOD
 
-class Sound(object):
+class WebiumSound(object):
 
     def __init__(self, soundPath):
         self.__sndTick = None
@@ -723,33 +723,33 @@ TimersBar.setTotalTime = newsetTotalTime
 def __startBattleL(self):
     if logging == 'true':
         print 'startBattle'
-    pa.firstBlood = Sound(first)
-    pa.sndFirstOne = Sound(firstS)
-    pa.sndDouble = Sound(doubleS)
-    pa.sndTriple = Sound(tripleS)
-    pa.ultraKill = Sound(ultraS)
-    pa.multiKill = Sound(multiS)
-    pa.monsterKill = Sound(monsterS)
-    pa.killingSpree = Sound(spreeS)
-    pa.rampageKill = Sound(rampS)
-    pa.unstopKill = Sound(unstopS)
-    pa.godKill = Sound(godS)
-    pa.elevenKill = Sound(elevenS)
-    pa.twelveKill = Sound(twelveS)
-    pa.thirteenKill = Sound(thirteenS)
-    pa.fourteenKill = Sound(fourteenS)
-    pa.fifteenKill = Sound(fifteenS)
-    pa.kamikazeSnd = Sound(kamiS)
-    pa.ramkillSnd = Sound(ramkillS)
-    pa.biaSnd = Sound(biaS)
-    pa.crucialSnd = Sound(crucialS)
-    pa.deniedSnd = Sound(deniedS)
-    pa.paybackSnd = Sound(paybackS)
-    pa.snd3min = Sound(t3minsS)
-    pa.snd2min = Sound(t2minsS)
-    pa.snd1min = Sound(t1minS)
-    pa.snd30sec = Sound(t30secsS)
-    pa.snd10sec = Sound(t10secsS)
+    pa.firstBlood = WebiumSound(first)
+    pa.sndFirstOne = WebiumSound(firstS)
+    pa.sndDouble = WebiumSound(doubleS)
+    pa.sndTriple = WebiumSound(tripleS)
+    pa.ultraKill = WebiumSound(ultraS)
+    pa.multiKill = WebiumSound(multiS)
+    pa.monsterKill = WebiumSound(monsterS)
+    pa.killingSpree = WebiumSound(spreeS)
+    pa.rampageKill = WebiumSound(rampS)
+    pa.unstopKill = WebiumSound(unstopS)
+    pa.godKill = WebiumSound(godS)
+    pa.elevenKill = WebiumSound(elevenS)
+    pa.twelveKill = WebiumSound(twelveS)
+    pa.thirteenKill = WebiumSound(thirteenS)
+    pa.fourteenKill = WebiumSound(fourteenS)
+    pa.fifteenKill = WebiumSound(fifteenS)
+    pa.kamikazeSnd = WebiumSound(kamiS)
+    pa.ramkillSnd = WebiumSound(ramkillS)
+    pa.biaSnd = WebiumSound(biaS)
+    pa.crucialSnd = WebiumSound(crucialS)
+    pa.deniedSnd = WebiumSound(deniedS)
+    pa.paybackSnd = WebiumSound(paybackS)
+    pa.snd3min = WebiumSound(t3minsS)
+    pa.snd2min = WebiumSound(t2minsS)
+    pa.snd1min = WebiumSound(t1minS)
+    pa.snd30sec = WebiumSound(t30secsS)
+    pa.snd10sec = WebiumSound(t10secsS)
 
 """saved_a = Battle.afterCreate
 def new_a(self):
