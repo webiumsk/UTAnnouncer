@@ -1,0 +1,85 @@
+<?xml version='1.0'  encoding='UTF-8'?>
+<ut_announcer_config>
+
+<logging>false</logging> <!-- Enable/Disable python.log debug [NOTE] reporting lines. Allowed options: true/false (case sensitive! use lower case) -->
+
+<showtext>false</showtext> <!-- show "Firstblood!" etc. text messages on screen. Allowed options: true/false (case sensitive! use lower case) -->
+
+<first>None</first>  <!-- First Blood -->
+<one>/webium/killcounter/one</one>  <!-- First Blood -->
+<two>/webium/killcounter/two</two>  <!-- Double kill -->
+<three>/webium/killcounter/three</three> <!-- Triple kill, Hattrick -->
+<four>/webium/killcounter/four</four> <!-- Mega kill -->
+<five>/webium/killcounter/five</five> <!-- Multi kill -->
+<six>/webium/killcounter/six</six>    <!-- Top Gun -->
+<seven>/webium/killcounter/seven</seven> <!-- Ultra kill -->
+<eight>/webium/killcounter/eight</eight> <!-- Monster kill -->
+<nine>/webium/killcounter/nine</nine>    <!-- Ludicrous kill -->
+<ten>/webium/killcounter/ten</ten>       <!-- Killing spree -->
+<eleven>/webium/killcounter/eleven</eleven>  <!-- Unstoppable -->
+<twelve>/webium/killcounter/twelve</twelve>  <!-- Massacre -->
+<thirteen>/webium/killcounter/thirteen</thirteen>   <!-- God Like -->
+<fourteen>/webium/killcounter/fourteen</fourteen> <!-- Holy shit  -->
+<fifteen>/webium/killcounter/fifteen</fifteen>  <!-- Unreal -->
+
+<t10secs>/webium/time/t10secs</t10secs>
+<t1min>/webium/time/t1min</t1min>
+<t2mins>/webium/time/t2mins</t2mins>
+<t3mins>/webium/time/t3mins</t3mins>
+<t30secs>/webium/time/t30secs</t30secs>
+<t15secs>/webium/time/t15secs</t15secs>
+
+<kamikazesound>/locastan/locastan/kamikaze</kamikazesound> <!-- kamikaze audio sound definition, put None to disable -->
+<ramkillsound>/locastan/locastan/ramkill</ramkillsound> <!-- ramkill audio sound definition, put None to disable -->
+<biasound>/locastan/locastan/eradication</biasound> <!-- brothers in arms scored audio sound definition, put None to disable -->
+<crucialsound>/locastan/locastan/extermination</crucialsound> <!-- crucial contribution scored audio sound definition, put None to disable -->
+<deniedsound>/locastan/locastan/denied</deniedsound> <!-- brother in arms denied audio sound definition, put None to disable -->
+<paybacksound>/locastan/locastan/payback</paybacksound> <!-- payback audio sound definition, put None to disable -->
+
+<firstoption>me</firstoption> <!-- Announce "Firstblood!" if 1st tank gets killed by me or any tank. Allowed options: me/any (lower case) -->
+
+<firsttext>$attacker drew first Blood!</firsttext> <!-- "Firstblood!" text message on screen.-->
+<kamikazetext>Kamikaze!</kamikazetext> <!--  Kamikaze Award text message on screen.-->
+<ramkilltext>Ramkill!</ramkilltext> <!--  Kill an enemy by ramming to get this text message on screen.-->
+<biatext>$attacker scored us Brothers in Arms!</biatext> <!--  Brothers in Arms Award text message on screen.-->
+<crucialtext>$attacker scored us Crucial Contribution!</crucialtext> <!-- Crucial Contribution text message on screen.-->
+<paybacktext>$attacker avenged $buddy!</paybacktext> <!-- Text message on screen when you avenge your platoonmates death. $buddy macro allowed here.-->
+<paybackowntext>$buddy avenged your death!</paybackowntext> <!-- Text message on screen when a platoonmate avenges your death. $buddy macro allowed here.-->
+<deniedtext>Brothers in Arms denied by $attacker!</deniedtext> <!-- Text message on screen when you get denied an existing BiA by a platoonmates death.-->
+
+<delay>3</delay><!-- Text message remains for this amount of seconds on screen before fading out.-->
+
+</ut_announcer_config>
+
+<!--Allowed macros in text sections:
+
+$attacker for Playername of tank scoring the kill/event 
+$target for Playername of tank being killed
+$buddy for your Platoon buddies name avenged in Payback (only there!) section
+
+Additional included sound definitions in the wavebanks to put into sound definition tags:
+
+/locastan/locastan/topgun
+
+/locastan/locastan/eradication
+
+/locastan/locastan/extermination
+
+/locastan/locastan/flakmaster
+
+/locastan/locastan/mutualdestr
+
+/locastan/locastan/impressive
+
+/locastan/locastan/nicecatch
+
+/locastan/locastan/outstanding
+
+/locastan/locastan/hitandrun
+
+/locastan/locastan/pancake
+
+/locastan/locastan/roadkill
+
+/locastan/locastan/vehicslaughter
+-->
